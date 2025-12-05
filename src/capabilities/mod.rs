@@ -28,7 +28,7 @@ pub trait ImplCap<T>: CapSet {}
 /// Defines trait `ImplCapMy` that can be used to easily check that CapSet has
 /// at least all capabilities in `CapMy`.
 ///
-/// Additionally at compile time checks that `ImplChildSet` is subset of `CapMy` capabilities.
+/// Additionally, at compile time checks that `ImplChildSet` is subset of `CapMy` capabilities.
 ///
 /// See examples for correct use!
 #[macro_export]
